@@ -1,0 +1,33 @@
+body {
+  font-family: Tahoma;
+}
+
+div {
+  border: 1px solid #666;
+}
+
+#calendar {
+  width: 100%;
+}
+
+#calendar a{
+  color: #666;
+  text-decoration: none;
+}
+
+#calendar ul{
+  list-style: none;
+  padding: 0;
+  clear: both;
+  margin: 0;
+  width: 100%;
+}
+
+#calendar li {
+  float: left;
+  width: 14.28571428571429%;
+}
+
+#days li {
+  height: 128px;
+}
