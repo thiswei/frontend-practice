@@ -27,8 +27,16 @@ body {
   padding: 5px;
   box-sizing: border-box;
   border: 1px solid #ccc;
-  margin-right: -1px;
-  margin-bottom: -1px;
+  border-left-width: 0;
+  border-bottom-width: 0;
+}
+
+#calendar li:first-child {
+  border-left-width: 1px;
+}
+
+#calendar ul:last-child li {
+  border-bottom-width: 1px;
 }
 
 #calendar ul.weekdays {
